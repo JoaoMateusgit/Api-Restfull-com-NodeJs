@@ -1,7 +1,15 @@
 import express from "express";
+import md5 from 'md5';
+import dotenv from 'dotenv';
 
 const app = express();
 const PORT = 3000;
+
+dotenv.config();
+
+//pegar a chave privada do .env
+const toHash =  pro.env.pu;
+const hash = md5(toHash);
 var ArrResponse = [
     {
         id: 1,
