@@ -1,0 +1,84 @@
+body {
+    height: 99vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: #23232b;
+    background: linear-gradient(90deg, rgba(35, 35, 43, 1) 0%, rgba(0, 0, 0, 1) 46%, rgba(31, 26, 26, 1) 77%, rgba(38, 35, 35, 1) 99%);
+}
+
+#TextoHeader {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+    color: white;
+}
+
+.BotaoesPesquisa {
+    /* From https://css.glass */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: cursive;
+}
+
+.Input {
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.6px);
+    -webkit-backdrop-filter: blur(10.6px);
+    color: white;
+    padding: 10px 20px;
+    width: 70%;
+    max-height: 18px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.Botao {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+.Botao:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: cursive;
+}
+
+img{
+    transition: 0.2s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
