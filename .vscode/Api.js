@@ -2,26 +2,7 @@ import express from "express";
 
 const app = express();
 const PORT = 3000;
-var ArrResponse = [
-    {
-        id: 1,
-        name: "David Sales Bohrer",
-        Idade: 34,
-        Personagem: "Usopp"
-    },
-    {
-        id: 2,
-        name: "João Mateus Perachi",
-        Idade: 21,
-        Personagem: "Noturno"
-    },
-    {
-        id: 3,
-        name: "Terceiro",
-        Idade: 33,
-        Personagem: "Bolsobosta"
-    }
-]
+var ArrResponse = []
 
 app.use(express.json()); 
 

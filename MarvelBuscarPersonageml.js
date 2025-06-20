@@ -3,10 +3,12 @@ import axios from 'axios';
 import md5 from 'md5';
 import dotenv from 'dotenv';
 import path from 'path';
+const helmet = require('helmet');
 import { fileURLToPath } from 'url';
 
 dotenv.config();
 const app = express();
+app.use(helmet());
 app.use(express.static('public'));
 const PORT = 3000;
 

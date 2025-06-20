@@ -1,10 +1,11 @@
 body {
     height: 99vh;
+    overflow: hidden;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background: #23232b;
-    background: linear-gradient(90deg, rgba(35, 35, 43, 1) 0%, rgba(0, 0, 0, 1) 46%, rgba(31, 26, 26, 1) 77%, rgba(38, 35, 35, 1) 99%);
+    background: #d90000;
+    background: radial-gradient(circle, rgba(217, 0, 0, 1) 0%, rgba(20, 20, 20, 1) 100%);
 }
 
 #TextoHeader {
@@ -26,7 +27,7 @@ body {
 .Input {
     background: rgba(255, 255, 255, 0.31);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(245, 242, 242, 0.1);
     backdrop-filter: blur(10.6px);
     -webkit-backdrop-filter: blur(10.6px);
     color: white;
@@ -39,6 +40,10 @@ body {
     border: none;
 }
 
+Input::placeholder {
+    color: rgb(255, 255, 255);
+  }
+
 .Botao {
     padding: 10px 20px;
     font-size: 16px;
@@ -48,20 +53,20 @@ body {
     transition: 0.2s ease-in-out;
 }
 
-.Botao:hover{
+.Botao:hover {
     transform: scale(1.2);
     transition: all 0.5s;
-    color:rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255); 
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #resultado {
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 90px;
     width: 500px;
     align-items: center;
     justify-content: center;
@@ -69,16 +74,16 @@ body {
     font-family: cursive;
 }
 
-img{
+img {
     transition: 0.2s ease-in-out;
 }
 
-img:hover{
+img:hover {
     transform: scale(1.1);
     transition: all 0.5s;
-    color:rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255); 
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
